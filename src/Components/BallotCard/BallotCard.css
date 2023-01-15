@@ -1,0 +1,39 @@
+.ballot-card {
+    background-color: var(--color-gamma);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.ballot-card:hover {
+    background-color: var(--color-gamma-hover);
+    color: var(--font-color-hover);
+}
+
+.ballot-card img {
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: var(--color-beta);
+    color: white;
+    border: none;
+    width: 125px;
+}
+
+button:hover {
+    background-color: var(--color-beta-hover);
+}
+
+.selected {
+    background-color: var(--color-gamma-selected);
+    border: 5px solid red;
+}

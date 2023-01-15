@@ -1,0 +1,42 @@
+.bg-blocker {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ballot-modal {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+    background-color: var(--color-alpha);
+}
+
+.ballot-modal h2 {
+    background-color: initial;
+}
+
+.modal-x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: initial;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 50px;
+}
+
+.modal-x:hover {
+    background-color: initial;
+}
+
+@media screen and (max-width: 768px) {
+    .ballot-modal {
+        left: 0;
+        right: 0;
+    }
+}

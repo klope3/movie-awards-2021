@@ -1,0 +1,10 @@
+.ballot-category h2 {
+    text-align: left;
+    padding: 5px;
+}
+
+.ballot-category-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+    gap: 10px;
+}

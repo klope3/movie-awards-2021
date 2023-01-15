@@ -1,0 +1,25 @@
+.ballot {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.ballot-submit {
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: var(--color-gamma);
+    width: initial;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.ballot-submit:hover {
+    background-color: var(--card-and-button-hover);
+}
+
+.ballot-submit:disabled {
+    background-color: gray;
+}

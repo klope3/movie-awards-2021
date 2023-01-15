@@ -1,32 +1,32 @@
+:root {
+  --page-bg: #0D2436;
+  --font-color-default: #FFFFFF;
+  --font-color-hover: #CCCCCC;
+  --card-and-button-bg: #009B86;
+  --card-selected: #009B86;
+  --card-and-button-hover: #34AC9C;
+
+  --color-alpha: #0D2436;
+  --color-beta: #1f4858;
+  --color-beta-hover: #2a5a6d;
+  --color-gamma: #009B86;
+  --color-gamma-hover: #34AC9C;
+  --color-gamma-selected: #009B86;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 15vmin;
-  pointer-events: none;
+body {
+  background-color: var(--color-alpha);
+  color: var(--font-color-default);
 }
 
-.App-header {
-  background-color: #50B074;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+    background-color: var(--color-beta);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  font-family: "Roboto", sans-serif;
 }
